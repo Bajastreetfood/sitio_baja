@@ -73,9 +73,18 @@ useEffect(() => {
         </div>
         <div class="desc m-auto">
         Descubre nuestra variedad de platillos individuales y para compartir, con ingredientes frescos y de la mejor calidad.
+        { 
+        localStorage.getItem('eleccion') === '' ?
+        <h4 className="mt-4">Selecciona una opción</h4>
+        :
+        <span></span>
+
+        }
         </div>
       </div>
     </div>
+
+    
 
     <div id="menuDesktop" class="col-12 text-center">
       <ul id="filter-porto">
