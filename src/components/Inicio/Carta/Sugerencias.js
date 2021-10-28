@@ -90,7 +90,7 @@ function Sugerencias(){
                     Burrito Mar y Tierra
                   </div>
                   <div class="subheading">
-                    Camarón y arachera con queso, guacamole, elote y deliciosas fajitas de chile poblano.
+                    Camarón y arrachera con queso, guacamole, elote y deliciosas fajitas de chile poblano.
                   </div>
                 </div>
                 <div class="rightcontent">
