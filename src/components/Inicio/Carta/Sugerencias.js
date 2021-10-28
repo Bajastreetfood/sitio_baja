@@ -103,7 +103,7 @@ function Sugerencias(){
                     Gringa Baja
                   </div>
                   <div class="subheading">
-                    Gratinada con queso, más piña asada y la protéina que elijas (marlín, arrachera, camarón con chorizo, pulpo con chorizo o pescado al pastor).
+                    Gratinada con queso, más piña asada y la proteína que elijas (marlín, arrachera, camarón con chorizo, pulpo con chorizo o pescado al pastor).
                   </div>
                 </div>
                 <div class="rightcontent">
