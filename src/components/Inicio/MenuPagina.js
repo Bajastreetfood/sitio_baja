@@ -27,6 +27,7 @@ const prueba = aux =>{
   localStorage.setItem('eleccion', aux);
 }
 useEffect(() => {
+  localStorage.setItem('eleccion', '');
   if(localStorage.getItem('bandera') == 1)
   {
     window.location.reload();
