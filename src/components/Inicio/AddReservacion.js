@@ -139,6 +139,7 @@ function Addreservacion(){
                     value={hora}
                     onChange={onChangeReservacion}
                     >
+                      <option>Horario:</option>
                       <option>12:00</option>
                       
                       <option>13:00</option>

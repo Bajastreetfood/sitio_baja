@@ -70,7 +70,7 @@ function EditReservacion(){
     reservacion.personas = personas;
     reservacion.hora = hora;
     reservacion.fecha = reservacionAux.fecha;
-
+    reservacion.telefono = reservacionAux.telefono;
     actualizarReservacion(reservacion);
     guardarEstado("Actualizada")
 

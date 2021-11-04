@@ -29,10 +29,10 @@ import Reservaciones from './components/Dashboard/Reservaciones';
 
 
 //Revisar si tenemos token
-const token = localStorage.getItem('token');
+const token = localStorage.getItem('tokenBaja');
 if(token){
   tokenAuth(token);
-}
+} 
 
 function App() {
   return (

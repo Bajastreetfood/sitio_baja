@@ -5,6 +5,8 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Navbar from './Navbar';
 import facturaContext from '../../context/facturas/facturaContext';
+import emailjs from 'emailjs-com';
+import { send } from 'emailjs-com';
 
 
 function Factura(){
@@ -24,6 +26,7 @@ function Factura(){
   
   const [startDate, setStartDate] = useState(new Date());
   const[error, guardarError] = useState(false)
+  const[estado, guardarEstado] = useState('Pedir Factura')
 
   //state para restaurante
   const [factura, guardarFactura] = useState({
@@ -60,6 +63,14 @@ function Factura(){
     factura.fecha = startDate
     agregarFactura(factura);
 
+    send('service_o974apx', 'intento2', factura, 'user_AzkZ6oW545KUsTfsLoXOr')
+    .then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+    })
+    .catch((err) => {
+      console.log('FAILED...', err);
+    });
+
     //Reiniciar el form
     guardarFactura({
       nombre: '',
@@ -70,6 +81,11 @@ function Factura(){
       total: '',
       fecha:''
     })
+    guardarEstado("Enviada")
+
+    setTimeout(() =>{
+      guardarEstado("Pedir Factura")
+    }, 5000)
   }
 
     return(
@@ -128,7 +144,7 @@ function Factura(){
       <div >
       <label for="exampleInputPassword1" class="form-label mt-4 mb-4">¿Cuando nos visitaste?</label>
       <br/>
-      <DatePicker  selected={startDate} onChange={(date) => setStartDate(date)} />
+      <DatePicker locale="es-MX"  selected={startDate} onChange={(date) => setStartDate(date)} />
 
       </div>
      
@@ -183,8 +199,8 @@ function Factura(){
     {error? <p id="alerta">Todos los campos son obligatorios</p>: null}
     <div className="">
     <button class="btn-content mt-4 "  onClick={onSubmitFactura} >
+    {estado === "Pedir Factura" ? <span>Pedir Factura</span>: <span>Enviada</span>}
                     
-                    Pedir Factura
                   </button>    
     </div>
     <br />

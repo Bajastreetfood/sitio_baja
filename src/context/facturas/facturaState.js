@@ -2,7 +2,7 @@ import React, {useReducer} from 'react';
 
 import facturaContext from './facturaContext';
 import facturaReducer from './facturaReducer';
-import {FORMULARIO_FACTURA} from '../../types';
+import {ACTUALIZAR_FACTURA, FORMULARIO_FACTURA} from '../../types';
 import {OBTENER_FACTURAS} from '../../types';
 import {AGREGAR_FACTURA} from '../../types';
 import {VALIDAR_FORMULARIO} from '../../types';
@@ -115,6 +115,21 @@ const FacturaState = props => {
        }
     }
 
+     //Edita o modifica una reservacion
+     const actualizarFactura = async factura =>{
+        console.log(factura);
+       try {
+           const resultado = await clienteAxios.put(`/api/facturas/${factura._id}`,factura);
+           console.log(resultado)
+        dispatch({
+            type: ACTUALIZAR_FACTURA,
+            payload: resultado.data.factura
+        })
+       } catch (error) {
+           console.log(error)
+       }
+    }
+
     return(
         <facturaContext.Provider
             value={{
@@ -128,7 +143,8 @@ const FacturaState = props => {
                 agregarFactura,
                 mostrarError,
                 facturaActual,
-                eliminarFactura
+                eliminarFactura,
+                actualizarFactura
             }}
         >
             {props.children}

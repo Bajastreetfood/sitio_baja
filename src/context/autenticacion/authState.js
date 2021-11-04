@@ -20,7 +20,7 @@ import authReducer from './authReducer';
 
 const AuthState = props =>{
     const initialState ={
-        token: localStorage.getItem('token'),
+        token: localStorage.getItem('tokenBaja'),
         autenticado: null,
         usuario: null,
         mensaje: null,
@@ -58,13 +58,14 @@ const AuthState = props =>{
 
     //Retorna el usuario autenticado
     const usuarioAutenticado = async () =>{
-        const token = localStorage.getItem('token');
+        const token = localStorage.getItem('tokenBaja');
         if(token){
             tokenAuth(token)
         }
         try {
             const respuesta = await clienteAxios.get('/api/auth');
             console.log(respuesta)
+            console.log("LLOOLL")
 
             dispatch({
                 type:OBTENER_USUARIO,

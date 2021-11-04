@@ -41,7 +41,7 @@ export default (state,action) =>{
                 case ACTUALIZAR_FACTURA:
                     return{
                         ...state,
-                        facturas: state.facturas.map(factura => factura._id === action.payload._id 
+                        facturas: state.facturas.map(factura => console.log(factura)
                             ? action.payload
                             : factura)
                     }

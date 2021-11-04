@@ -21,16 +21,16 @@
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: #ffdb774f;
-    color: rgb(255, 208, 0);
+    background-color: #ececec;
+    color: #6f6f6f;
     width: 16%;
     text-decoration: none;
   }
   
   /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
-    background-color:#ffdb774f;
-    color:  rgb(255, 208, 0);
+    background-color:#ececec;
+    color:  #6f6f6f;
     width: 14%;
     text-decoration: none;
   }

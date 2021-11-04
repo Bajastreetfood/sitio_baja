@@ -7,7 +7,6 @@ import Navbar from './Navbar';
 import Reservaciones from './Reservaciones';
 import Facturas from './Facturas';
 function Dashboard() {
-
   return (
     <>
     <Navbar/>

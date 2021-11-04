@@ -3,6 +3,7 @@ import React, { Fragment, useState, useEffect, useContext } from 'react';
 import facturaContext from '../../context/facturas/facturaContext';
 import FacturaTable from './FacturaTable';
 import DatePicker from "react-datepicker";
+import Pagination from './Pagination';
 import "react-datepicker/dist/react-datepicker.css";
 
 function Facturas(){
@@ -12,6 +13,8 @@ function Facturas(){
       const { mensaje, facturas, obtenerFacturas, facturaActual, eliminarFactura } = facturasContext;
       const [facturasOrdenadas, guardarFacturasOrdenadas] = useState([])
       const [startDate, setStartDate] = useState(new Date());
+      const [currentPage, setCurrentPage] = useState(1);
+      const [postPerPage, setPostPerPage] = useState(7)
 
       useEffect(() => {
         obtenerFacturas();
@@ -25,12 +28,16 @@ function Facturas(){
       guardarFacturasOrdenadas(ordenarFacturas)
 
     }
-
+/*
+    const indexOfLastPost = currentPage * postPerPage;
+    const indexOfFirstPost = indexOfLastPost - postPerPage;
+    const currentPosts = facturas.slice(indexOfFirstPost, indexOfLastPost)
+*/
     return(
         <Fragment>
 
 
-        <div id="reservacionesDashboard" className="container-fluid mt-4">
+        <div id="facturasDashboard" className="container-fluid mt-4">
                 
         <table class="table table-hover text-center " id="facturas">
   <thead>
@@ -55,6 +62,7 @@ function Facturas(){
         i = {i}
       />
     ))}
+   {/* <Pagination postPerPage={postPerPage} totalPost={facturas.length} />*/}
     
   </tbody>
 </table>
