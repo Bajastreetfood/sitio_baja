@@ -17,30 +17,40 @@ function Especialidades(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Atún Costra
+                    Atún Costra <i>200 g</i>
                   </div>
                   <div class="subheading">
-                  Steak de atún con una costra de ajonjolí, cortado en láminas, acompañado con arroz, espárragos al ajillo y los sabores cítricos del Baja.
-                   </div>
+                  Costra de ajonjolí, arroz en vinagreta, miel moztaza y fruta tropical                   </div>
                 </div>
                 <div class="rightcontent">
-                  $220
+                  $235
+                </div>
+              </li>
+              
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                  Brochetas de Marlín <i>180 g</i>
+                  </div>
+                  <div class="subheading">
+                  Pimientos, jitomate cherry, cebolla y arroz                                   </div>
+                </div>
+                <div class="rightcontent">
+                  $170
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Filete de pescado en mantequilla de limón
+                  Sierra a la Plancha <i>250 g</i>
                   </div>
                   <div class="subheading">
-                Filete de pescado rebosado en una mezcla de avellanas y mantequiella de limón, acompañado de ensalada o verduras horneadas.
-                                   </div>
+                  Sazonada estilo italiano con guarnicion a elegir </div>
                 </div>
                 <div class="rightcontent">
-                  $160
+                  $230
                 </div>
               </li>
-              
             </ul>
           </div>
         </div>
@@ -53,27 +63,25 @@ function Especialidades(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Arrachera Surf & Turf
+                    Arrachera Surf & Turf <i>250 g</i>
                   </div>
                   <div class="subheading">
-                    Arrachera <i>premium</i> aderezada con camarones en mantequilla de limón, acompañada de ensalada o verduras horneadas.
-                  </div>
+                  252 gr más camarones gobernador y   guarnición a elegir                  </div>
                 </div>
                 <div class="rightcontent">
-                  $195
+                  $250
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Chile relleno de Mariscos
+                    Pescado en mantequilla de limón <i>180 g</i>
                   </div>
                   <div class="subheading">
-                    Chile poblano relleno de <i>250 g</i> de camarón y queso, bañado en la salsa secreta de la Baja, con guarnición de arroz.
-                  </div>
+                  150  g de filete empanizado de avellana y guarnición a elegir</div>
                 </div>
                 <div class="rightcontent">
-                  $220
+                  $435
                 </div>
               </li>
             </ul>
@@ -88,16 +96,28 @@ function Especialidades(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Lomo de Salmón de Maracuyá
+                    Lomo de Salmón de Maracuyá <i>200 g</i>
                   </div>
                   <div class="subheading">
-                    Salmón a la planca bañado en una deliciosa salsa de maracuyá, acompañado de arroz y espárragos al ajillo, más ensalada o verduras al horno
-                  </div>
+                  Con espárragos término y guarnición a elegir                  </div>
                 </div>
                 <div class="rightcontent">
-                  $260
+                  $280
                 </div>
               </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Pulpo a las Brasas <i>250 g</i>
+                  </div>
+                  <div class="subheading">
+                  En salsa macha, esparragos al ajillo + arroz en blanco y negro                   </div>
+                </div>
+                <div class="rightcontent">
+                  $435
+                </div>
+              </li>
+              
               
             </ul>
           </div>

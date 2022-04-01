@@ -19,11 +19,22 @@ function Tacos(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Pescado Capeado
+                    Pescado Capeado <i>50 g</i>
                   </div>
                   <div class="subheading">
-                  Tira de pescado capeado, servido con guacamole, lechuga, crema y salsa mexicana. Desde la Baja a tu plato.
-                   </div>
+                  Con guacamole, lechuga, crema y salsa mexicana                   </div>
+                </div>
+                <div class="rightcontent">
+                  $50
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                  Aguacate Capeado <i>70 g</i>
+                  </div>
+                  <div class="subheading">
+                  Con lechuga, crema y salsa mexicana	                                   </div>
                 </div>
                 <div class="rightcontent">
                   $45
@@ -32,27 +43,13 @@ function Tacos(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Camarón con chorizo
+                  Camarón capeado <i>45 g</i>
                   </div>
                   <div class="subheading">
-                  Deliciosa mezcla de camarones a la plancha con chorizo, aderezado con guacamole
-                                   </div>
+                  Con mix de coles y aderezo mayonesa chipotle	                           </div>
                 </div>
                 <div class="rightcontent">
-                  $50
-                </div>
-              </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                  Camarón capeado
-                  </div>
-                  <div class="subheading">
-                  Acompañado de mix de col y aderezo chipotle.
-                           </div>
-                </div>
-                <div class="rightcontent">
-                  $50
+                  $55
                 </div>
               </li>
             </ul>
@@ -64,27 +61,14 @@ function Tacos(){
               <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
+             
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Pulpo con chorizo
+                    Pulpo <i>40 g</i>
                   </div>
                   <div class="subheading">
-                   Una mezcla excéntrica y deliciosa entre pulpo y chorizo, acompañado de guacamole.
-                  </div>
-                </div>
-                <div class="rightcontent">
-                  $55
-                </div>
-              </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Pulpo 
-                  </div>
-                  <div class="subheading">
-                    Delicioso tentáculo de pulpo rebosado en salsa macha, acompañado de <i>col slaw</i> y piña a la plancha.
-                  </div>
+                  Tentáculo en salsa macha con piña, col,cebolla y cilantro                  </div>
                 </div>
                 <div class="rightcontent">
                   $65
@@ -93,14 +77,25 @@ function Tacos(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Arrachera con queso 
+                    Arrachera con queso <i>60 g</i>
                   </div>
                   <div class="subheading">
-                    Deliciosa arrachera marinada con queso gratinado y láminas de aguacate.
-                  </div>
+                  Con costra de quesos y aguacate	                  </div>
                 </div>
                 <div class="rightcontent">
                   $50
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Pescado al pastor <i>100 g</i>
+                  </div>
+                  <div class="subheading">
+                  Con piña, guacamole, cebolla morada y cilantro	                  </div>
+                </div>
+                <div class="rightcontent">
+                  $55
                 </div>
               </li>
             </ul>
@@ -112,44 +107,31 @@ function Tacos(){
               <img src={Foto1} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
-            <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Pescado al pastor
-                  </div>
-                  <div class="subheading">
-                    Pescado blanco marinado al pastor con su clásica piña asada y guacamole.
-                  </div>
-                </div>
-                <div class="rightcontent">
-                  $50
-                </div>
-              </li>
+           
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Gobernador
+                    Gobernador <i>60 g</i>
                   </div>
                   <div class="subheading">
-                   Mezcla de camarones, queso y crema con un toque de chipotle, servido con frijoles y guacamole.
-                  </div>
+                  Camarones, queso, pimientos y cebolla	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $60
+                  $70
                 </div>
               </li>
             
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Marlín
+                    Marlín <i>60 g</i>
                   </div>
                   <div class="subheading">
-                    Ahumado al estilo Baja, acompañado de mix de col y láminas de aguacate.
-                  </div>
+                  Con aguacate y mix de coles	   
+                                 </div>
                 </div>
                 <div class="rightcontent">
-                  $45
+                  $50
                 </div>
               </li>
             </ul>

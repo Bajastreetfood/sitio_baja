@@ -17,24 +17,22 @@ function Starters(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Alitas de Pulpo
+                    Alitas de Pulpo <i>150 g</i>
                   </div>
                   <div class="subheading">
-                  Pulpo crocante sobre una cama de papas gajo, marinado en salsa hot o BBQ, acompañado de bastones de pepino y aderezo Ranch.
-                  </div>
+                  Con papas gajo, aderezo Ranch y salsa hot o BBQ	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $230
+                  $250
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Pop Corn de Pollo
+                  Pop Corn de Pollo <i>350 g</i>
                   </div>
                   <div class="subheading">
-                  Pollo crocante, marinado en salsa hot o BBQ, acompañado de bastones de pepino y aderezo Ranch.
-                                    </div>
+                  Con aderezo Ranch y salsa hot o BBQ                                    </div>
                 </div>
                 <div class="rightcontent">
                   $180
@@ -53,28 +51,29 @@ function Starters(){
             <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Chips de Pulpo
+                    Chips de Pulpo <i>100 g</i>
                   </div>
                   <div class="subheading">
-                    Pulpo en salsa macha sobre 9 piezas de papas fritas acompañadas con dip de chipotle y piña.
-                  </div>
+                  Con salsa macha y aderezo mayonesa-chipotle	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $180
+                  $195
                 </div>
               </li>
              
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Queso Fundido
+                    Pescadillas (1pz) <i>40 g</i>
                   </div>
                   <div class="subheading">
-                    Queso gratinado más <i> 110 g</i> de tu proteína favorita.
+                    Con lechuga, crema y guacamole.
+                    - Marlín
+                    - Pescado blanco
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $180
+                  $35
                 </div>
               </li>
             </ul>
@@ -92,11 +91,25 @@ function Starters(){
                     Pop Corn de Camarón
                   </div>
                   <div class="subheading">
-                    Camarón rebosado en harina crujiente sobre una cama de papas, acompañados de tu salsa favorita.
+                  Con papas gajo, aderezo Ranch y salsa hot o BBQ                  </div>
+                </div>
+                <div class="rightcontent">
+                  $195
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Quesadillas de Pulpo con Chorizo (3pz) <i>100 g</i>
+                  </div>
+                  <div class="subheading">
+                    Con lechuga, crema y guacamole.
+                    - Marlín
+                    - Pescado blanco
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $180
+                  $135
                 </div>
               </li>
               

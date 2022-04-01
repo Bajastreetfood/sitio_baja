@@ -17,13 +17,13 @@ function Sopas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Arroz Baja
+                    Arroz Baja <i>105 g</i>
                   </div>
                   <div class="subheading">
-                  Arroz hecho con todo el sabor de la Baja, acompañado de <i>150 g</i>  de camarones al ajillo. </div>
+                  Con camarones al ajillo en arroz blanco con fruta tropical </div>
                 </div>
                 <div class="rightcontent">
-                  $110
+                  $115
                 </div>
               </li>
               
@@ -40,14 +40,25 @@ function Sopas(){
             <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Caldo de Camarón
+                  Caldo de Camarón Chico <i>45 g</i>
                   </div>
                   <div class="subheading">
-                    Calientito caldo con camarones cocidos, finas papas y zanahorias.
-                                    </div>
+                  Tradicional con papas y zanahoria                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $50
+                  $55
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                  Caldo de Camarón Grande <i>120 g</i>
+                  </div>
+                  <div class="subheading">
+                  Tradicional con papas y zanahoria                                    </div>
+                </div>
+                <div class="rightcontent">
+                  $105
                 </div>
               </li>
               
@@ -66,11 +77,23 @@ function Sopas(){
                     Sopa Azteca de Mariscos
                   </div>
                   <div class="subheading">
-                    Mariscos combinados en una sopa azteca tradicional.
+                  Pulpo y camarón, terminada con crema, aguacate y guajillo	
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $85
+                  $110
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                  Crema del Día <i>230 ml</i>
+                  </div>
+                  <div class="subheading">
+                  Pregunta por el sabor del día	                  </div>
+                </div>
+                <div class="rightcontent">
+                  $55
                 </div>
               </li>
               
