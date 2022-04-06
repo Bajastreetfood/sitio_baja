@@ -11,7 +11,7 @@ export default function Aguachiles() {
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto1} alt="menu"/>
+            <img src="img/menu/2.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -34,7 +34,7 @@ export default function Aguachiles() {
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto2} alt="menu"/>
+            <img src="img/menu/2.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>

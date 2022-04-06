@@ -36,7 +36,7 @@ export default function Infantil() {
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto3} alt="menu"/>
+            <img src="img/menu/2.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -58,7 +58,7 @@ export default function Infantil() {
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto2} alt="menu"/>
+            <img src="img/menu/2.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
