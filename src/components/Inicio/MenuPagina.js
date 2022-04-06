@@ -57,7 +57,7 @@ useEffect(() => {
           <div class="img-icon">
              <img src="img/breadcumb-icon.png" alt="#"/>
           </div>
-          <div class="bread-title">Menu</div>
+          <div class="bread-title">Menú</div>
           
         </div>
       </div>
