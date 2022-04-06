@@ -1,11 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 
 import Foto1 from '../../../assets/IMG/menuplatillos/menu/burritos/gobernador.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/burritos/pollo.png'
 
-
-function Burritos(){
+export default function Aguachiles() {
     return(
         <div class="col-12 px-0 w-gallery-container">
       <div class="row">
@@ -18,27 +17,16 @@ function Burritos(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Gobernador <i>105 g</i>
+                    Verde
                   </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, lechuga, arroz y guacamole                  </div>
+                  Serrano y habanero + pepino, jicama y cebolla morada                  </div>
                 </div>
                 <div class="rightcontent">
                   $190
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                  Arrachera <i>120 g</i>
-                  </div>
-                  <div class="subheading">
-                  Lechuga, esquites, jitomate, aguacate, queso y mayonesa chipotle                 </div>
-                </div>
-                <div class="rightcontent">
-                  $170
-                </div>
-              </li>
+              
               
             </ul>
           </div>
@@ -52,13 +40,13 @@ function Burritos(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Pollo <i>100 g</i>
+                    Rojo
                   </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, lechuga, esquites, jitomate, aguacate y queso                  </div>
+                  Chile chiltepín, clamato + pepino, jícama, cebolla y jitomate cherry                </div>
                 </div>
                 <div class="rightcontent">
-                  $150
+                  $200
                 </div>
               </li>
               
@@ -74,13 +62,13 @@ function Burritos(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Marlín <i>100 g</i>
+                    Negro
                   </div>
                   <div class="subheading">
-                  Mix de coles, piña, mayonesa chipotle + guacamole                  </div>
+                  Habanero y tomate tatemados + jícama, pepino y cebolla morada                </div>
                 </div>
                 <div class="rightcontent">
-                  $160
+                  $210
                 </div>
               </li>
               
@@ -92,5 +80,3 @@ function Burritos(){
     </div>
     );
 }
-
-export default Burritos;

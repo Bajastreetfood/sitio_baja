@@ -13,27 +13,29 @@ function Bebidas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Camarón
+                    Naranjada/Limonada
                   </div>
                   <div class="subheading">
-                  Camarones salteados con aceite de ajo y deliciosa costra de queso, acompañada de aguacate y aderezo tártara.
+                  Pídelo en vaso ($40) o en Jarra
                    </div>
                 </div>
                 <div class="rightcontent">
-                  $160
+                  $150
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Mar y Tierra
+                  Agua de Sabor 
                   </div>
                   <div class="subheading">
-                  Deliciosa hamburguesa de arrachera con camarones tempura, acompañado de crocantes bastones de camote frito estilo Baja.
-                                    </div>
+                  Horchata, Jamaica, Tamarindo, Coco y Limón con Chia 
+                  <br></br>
+                  Pídelo en vaso ($50) o en Jarra
+                                                     </div>
                 </div>
                 <div class="rightcontent">
-                  $210
+                  $150
                 </div>
               </li>
               
@@ -49,14 +51,45 @@ function Bebidas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Arrachera
+                    Café americano, Té, Express
                   </div>
-                  <div class="subheading">
-                    Jugosa arrachera con aros de cebolla rebosada crujiente y un toque de aderezo tártara.
-                  </div>
+                  
                 </div>
                 <div class="rightcontent">
-                  $160
+                  $35
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Capucchino, Latte, Moka, Leche
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $45
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Cerveza Comercial
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $50
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Cerveza Premium
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $65
                 </div>
               </li>
              
@@ -69,20 +102,61 @@ function Bebidas(){
               <img src="img/menu/3.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
+            <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Vaso Michelado
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $10
+                </div>
+              </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Atún
+                    Vaso Cubano
                   </div>
-                  <div class="subheading">
-                    Atún fresco en costra de ajonjolí con piña a la plancha, acompañado de cebolla caramelizada con habanero y guacamole.
-                  </div>
+                  
                 </div>
                 <div class="rightcontent">
-                  $170
+                  $15
                 </div>
               </li>
-            
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Clamatada
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $25
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Vaso de clamatada natural
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $50
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Clamatada con mariscos <i>60 g</i>
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $75
+                </div>
+              </li>
             </ul>
           </div>
         </div>

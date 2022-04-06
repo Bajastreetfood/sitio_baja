@@ -18,29 +18,16 @@ function Burgers(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Camarón
+                    Camarón <i>90 g</i>
                   </div>
                   <div class="subheading">
-                  Camarones empanizados con costra de queso, mix de col, mayonesa chipotle, jitomate y aguacate.
-                   </div>
+                  Camarones empanizados, aderezo   mayonesa-chipotle, coles, jitomate, aguacate y queso                   </div>
                 </div>
                 <div class="rightcontent">
-                  $170
+                  $190
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Arrachera
-                  </div>
-                  <div class="subheading">
-                    Jugosa arrachera con aros de cebolla rebosada crujiente y un toque de aderezo tártara.
-                  </div>
-                </div>
-                <div class="rightcontent">
-                  $160
-                </div>
-              </li>
+              
 
 
 
@@ -58,14 +45,13 @@ function Burgers(){
             <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Mar y Tierra
+                  Mar y Tierra <i>195 g</i>
                   </div>
                   <div class="subheading">
-                  Deliciosa hamburguesa de arrachera molida con camarones tempura mas deliciosa capa de queso fundido.
-                                    </div>
+                  Arrachera, camarones capeados, lechuga jitomate y mostaza                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $210
+                  $230
                 </div>
               </li>
              
@@ -79,17 +65,16 @@ function Burgers(){
               <img src="img/menu/3.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
-              <li>
+            <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Atún
+                    Arrachera <i>150 g</i>
                   </div>
                   <div class="subheading">
-                    Atún fresco en costra de ajonjolí con piña a la plancha, acompañado de cebolla caramelizada con habanero y guacamole.
-                  </div>
+                  Con aros capeados, queso, lechuga y jitomate                  </div>
                 </div>
                 <div class="rightcontent">
-                  $170
+                  $180
                 </div>
               </li>
             

@@ -1,44 +1,34 @@
-import React from 'react';
+import React from 'react'
 
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/burritos/gobernador.png'
-import Foto2 from '../../../assets/IMG/menuplatillos/menu/burritos/pollo.png'
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensaladabaja.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-quesodecabra.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-mango.png'
 
 
-function Burritos(){
+export default function Infantil() {
     return(
         <div class="col-12 px-0 w-gallery-container">
       <div class="row">
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto1} alt="menu"/>
+              <img src="img/menu/2.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Gobernador <i>105 g</i>
+                    Dedos de Pescado <i>150 g</i>
                   </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, lechuga, arroz y guacamole                  </div>
+                  Con papas y ensalada                  </div>
                 </div>
                 <div class="rightcontent">
-                  $190
+                  $130
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                  Arrachera <i>120 g</i>
-                  </div>
-                  <div class="subheading">
-                  Lechuga, esquites, jitomate, aguacate, queso y mayonesa chipotle                 </div>
-                </div>
-                <div class="rightcontent">
-                  $170
-                </div>
-              </li>
+              
               
             </ul>
           </div>
@@ -46,19 +36,19 @@ function Burritos(){
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto2} alt="menu"/>
+              <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Pollo <i>100 g</i>
+                    Tiras de Pollo <i>150 g</i>
                   </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, lechuga, esquites, jitomate, aguacate y queso                  </div>
+                 Con papas y ensalada                   </div>
                 </div>
                 <div class="rightcontent">
-                  $150
+                  $120
                 </div>
               </li>
               
@@ -68,19 +58,19 @@ function Burritos(){
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/3.png" alt="menu"/>
+              <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Marlín <i>100 g</i>
-                  </div>
+                    Pasta con pollo <i>130 g</i>
+                                      </div>
                   <div class="subheading">
-                  Mix de coles, piña, mayonesa chipotle + guacamole                  </div>
+                 A la plancha, Alfredo o Mc N´ Cheese                 </div>
                 </div>
                 <div class="rightcontent">
-                  $160
+                  $130
                 </div>
               </li>
               
@@ -92,5 +82,3 @@ function Burritos(){
     </div>
     );
 }
-
-export default Burritos;

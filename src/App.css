@@ -177,5 +177,8 @@
   #showmobile:hover{
     color: orange;
   }
+  .title i{
+    font-size: 15px
+  }
 
   }

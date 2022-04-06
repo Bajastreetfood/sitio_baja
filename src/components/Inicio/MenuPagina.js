@@ -15,6 +15,11 @@ import Postres from './Carta/Postres';
 import Tostadas from './Carta/Tostadas';
 import Bebidas from './Carta/Bebidas';
 import Navbar from './Navbar';
+import Pastas from './Carta/Pastas';
+import Aguachiles from './Carta/Aguachiles';
+import Ceviches from './Carta/Ceviches';
+import Infantil from './Carta/Infantil';
+
 
 
 
@@ -89,11 +94,11 @@ useEffect(() => {
 
     <div id="menuDesktop" class="col-12 text-center">
       <ul id="filter-porto">
-      <li class={eleccion === "Sugerencias" ? ("filt-projects-w selected"):("filt-projects-w")}>
+      {/* <li class={eleccion === "Sugerencias" ? ("filt-projects-w selected"):("filt-projects-w")}>
       <span onClick={() => prueba('Sugerencias')}>Sugerencias</span>
-        </li>
+        </li> */}
         <li class={eleccion === "Starters" ? ("filt-projects-w selected"):("filt-projects-w")}>
-        <span onClick={() => prueba('Starters')}>Starters</span>
+        <span onClick={() => prueba('Starters')}>Entradas</span>
         </li>
         <li class={eleccion === "Sopas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Sopas')}>Sopas</span>
@@ -101,11 +106,21 @@ useEffect(() => {
         <li class={eleccion === "Tostadas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Tostadas')}>Tostadas</span>
         </li>
-        <li class={eleccion === "CocinaFria" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        {/* <li class={eleccion === "CocinaFria" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('CocinaFria')}>Cocina Fría</span>
-        </li>
+        </li> */}
         <li class={eleccion === "Especialidades" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Especialidades')}>Especialidades</span>
+        </li>
+        <li class={eleccion === "Pastas" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Pastas')}>Pastas</span>
+        </li>
+
+        <li class={eleccion === "Aguachiles" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Aguachiles')}>Aguachiles</span>
+        </li>
+        <li class={eleccion === "Ceviches" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Ceviches')}>Ceviches y más</span>
         </li>
         <li class={eleccion === "Burritos" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Burritos')}>Burritos</span>
@@ -119,14 +134,20 @@ useEffect(() => {
         <li class={eleccion === "Ensaladas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Ensaladas')}>Ensaladas</span>
         </li>
-        <li class={eleccion === "Vegetariano" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        {/* <li class={eleccion === "Vegetariano" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Vegetariano')}>Vegetariano</span>
-        </li>
-        <li class={eleccion === "Snacks" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        </li> */}
+        {/* <li class={eleccion === "Snacks" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Snacks')}>Snacks</span>
-        </li>
+        </li> */}
         <li class={eleccion === "Postres" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Postres')}>Postres</span>
+        </li>
+        <li class={eleccion === "Infantil" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Infantil')}>Menú Infantil</span>
+        </li>
+        <li class={eleccion === "Bebidas" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Bebidas')}>Bebidas</span>
         </li>
         {/*<li class={eleccion === "Bebidas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Bebidas')}>Bebidas</span>
@@ -137,11 +158,11 @@ useEffect(() => {
     <div className="row">
     <div id="menuMovil" class="col-6 text-center">
       <ul id="filter-porto">
-      <li class={eleccion === "Sugerencias" ? ("filt-projects-w selected"):("filt-projects-w")}>
+      {/* <li class={eleccion === "Sugerencias" ? ("filt-projects-w selected"):("filt-projects-w")}>
       <span onClick={() => prueba('Sugerencias')}>Sugerencias</span>
-        </li>
+        </li> */}
         <li class={eleccion === "Starters" ? ("filt-projects-w selected"):("filt-projects-w")}>
-        <span onClick={() => prueba('Starters')}>Starters</span>
+        <span onClick={() => prueba('Starters')}>Entradas</span>
         </li>
         <li class={eleccion === "Sopas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Sopas')}>Sopas</span>
@@ -149,20 +170,32 @@ useEffect(() => {
         <li class={eleccion === "Tostadas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Tostadas')}>Tostadas</span>
         </li>
-        <li class={eleccion === "CocinaFria" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        {/* <li class={eleccion === "CocinaFria" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('CocinaFria')}>Cocina Fría</span>
-        </li>
+        </li> */}
         <li class={eleccion === "Especialidades" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Especialidades')}>Especialidades</span>
         </li>
-        <li class={eleccion === "Burritos" ? ("filt-projects-w selected"):("filt-projects-w")}>
-        <span onClick={() => prueba('Burritos')}>Burritos</span>
+        <li class={eleccion === "Pastas" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Pastas')}>Pastas</span>
         </li>
+        <li class={eleccion === "Aguachiles" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Aguachiles')}>Aguachiles</span>
+        </li>
+        <li class={eleccion === "Ceviches" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Ceviches')}>Ceviches y más</span>
+        </li>
+        
+        
         </ul>
         </div>
 
         <div id="menuMovil" class="col-6 text-center">
         <ul id="filter-porto">
+        
+        <li class={eleccion === "Burritos" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Burritos')}>Burritos</span>
+        </li>
         <li class={eleccion === "Burgers" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Burgers')}>Burgers</span>
         </li>
@@ -172,14 +205,20 @@ useEffect(() => {
         <li class={eleccion === "Ensaladas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Ensaladas')}>Ensaladas</span>
         </li>
-        <li class={eleccion === "Vegetariano" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        {/* <li class={eleccion === "Vegetariano" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Vegetariano')}>Vegetariano</span>
-        </li>
-        <li class={eleccion === "Snacks" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        </li> */}
+        {/* <li class={eleccion === "Snacks" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Snacks')}>Snacks</span>
-        </li>
+        </li> */}
         <li class={eleccion === "Postres" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Postres')}>Postres</span>
+        </li>
+        <li class={eleccion === "Infantil" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Infantil')}>Menú Infantil</span>
+        </li>
+        <li class={eleccion === "Bebidas" ? ("filt-projects-w selected"):("filt-projects-w")}>
+        <span onClick={() => prueba('Bebidas')}>Bebidas</span>
         </li>
         {/*<li class={eleccion === "Bebidas" ? ("filt-projects-w selected"):("filt-projects-w")}>
         <span onClick={() => prueba('Bebidas')}>Bebidas</span>
@@ -207,6 +246,15 @@ useEffect(() => {
      {eleccion === 'Especialidades' &&
       <Especialidades/>
     }
+     {eleccion === 'Pastas' &&
+      <Pastas/>
+    }
+    {eleccion === 'Aguachiles' &&
+      <Aguachiles/>
+    }
+    {eleccion === 'Ceviches' &&
+      <Ceviches/>
+    }
      {eleccion === 'Burritos' &&
       <Burritos/>
     }
@@ -231,6 +279,10 @@ useEffect(() => {
     {eleccion === 'Bebidas' &&
       <Bebidas/>
     }
+    {eleccion === 'Infantil' &&
+      <Infantil/>
+    }
+   
 
     
     

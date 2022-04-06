@@ -1,56 +1,61 @@
-import React from 'react';
+import React from 'react'
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/tostadas/aguachile.png'
-import Foto2 from '../../../assets/IMG/menuplatillos/menu/tostadas/cerritos.png'
-import Foto3 from '../../../assets/IMG/menuplatillos/menu/tostadas/tostadaatun.png'
 
-function Tostadas(){
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensaladabaja.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-quesodecabra.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-mango.png'
+
+
+
+export default function Ceviches() {
     return(
         <div class="col-12 px-0 w-gallery-container">
       <div class="row">
+
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto2} alt="menu"/>
+              <img src="img/menu/2.png" alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
-            <li>
+              <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Cerritos <i>100 g</i>
+                    De Atún <i>120 g</i>
                   </div>
                   <div class="subheading">
-                  Pescado blanco, guacamole, mayonesa chipotle, aguacate y salsa de habanero
-                                    </div>
+                  Mango, cebolla, jitomate y chile cuaresmeño + salsa ponzu                  </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $155
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Pulpo <i>50 g</i>
-                  </div>
+                    De Sierra <i>150 g</i> 
+                                      </div>
                   <div class="subheading">
-                  En escabeche de nopal y salsa tatemada de habanero                   </div>
+                  Pimientos, chile cuaremeño, cebolla, aguacate y pepino + salsa marisquera              </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $195
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Camarón <i>60 g</i>
+                    Peruano <i>200 g</i>
                   </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, pepino, salsa     mexicana y ponzu                                    </div>
+                  Leche de tigre al estilo Baja, camote, grano de elote y aguacate                 </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $195
                 </div>
               </li>
+             
+              
               
             </ul>
           </div>
@@ -64,40 +69,37 @@ function Tostadas(){
             <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Atún <i>80 g</i>
-                  </div>
+                    Tártara de Salmón <i>120 g</i> 
+                                      </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, aguacate, ajonjolí y poro frito
-                  </div>
+                  Mango, aguacate y ajonjoli + salsa   teriyaki y marisquera                </div>
                 </div>
                 <div class="rightcontent">
-                  $95
+                  $180
+                </div>
+              </li>
+            <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Tártara de Atún <i>120 g</i> 
+                                      </div>
+                  <div class="subheading">
+                  Aguacate, mayonesa tártara, ajonjolí y poro               </div>
+                </div>
+                <div class="rightcontent">
+                  $170
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Peruana <i>100 g</i>
-                  </div>
+                    Tiradito de Atún <i>130 g</i> 
+                                      </div>
                   <div class="subheading">
-                  Pescado blanco, aguacate, crema, queso parmesano, grano de elote y camote
-                  </div>
+                  Supremas de naranja, cebolla, chile   habanero, aguacate + salsa secreta               </div>
                 </div>
                 <div class="rightcontent">
-                  $100
-                </div>
-              </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Señora Tostada de Atún <i>150 g</i>
-                  </div>
-                  <div class="subheading">
-                  supremas de naranja, aguacate, ajonjolí y aderezo balsámico
-                  </div>
-                </div>
-                <div class="rightcontent">
-                  $100
+                  $180
                 </div>
               </li>
               
@@ -107,45 +109,36 @@ function Tostadas(){
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-              <img src={Foto1} alt="menu"/>
+              <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
+              
+              
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Aguachile <i>60 g</i>
-                  </div>
+                    Coctelito Baja <i>150 g</i> 
+                    </div>
                   <div class="subheading">
-                  Serrano y habanero + pepino, jícama y cebolla morada                  </div>
+                  Jitomate, chile cuaresmeño, cebolla, pepino y aguacate + salsa coctelera             </div>
                 </div>
                 <div class="rightcontent">
-                  $105
+                  $170
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Marlín <i>80 g</i>
-                  </div>
+                    Torre de Mariscos <i>450 g</i> 
+                    </div>
                   <div class="subheading">
-                  Mayonesa-chipotle, mix de coles,   aguacate y salsa tatemada de habanero                  </div>
+                  Pescado blanco, salmón, camaron y pulpo con jitomate, pepino, mango y salsa mexicana (para compartir)             </div>
                 </div>
                 <div class="rightcontent">
-                  $95
+                  $550
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Vegetariana
-                  </div>
-                  <div class="subheading">
-                  Jicama, mango, manzana, pepino, aguacate y salsa mexicana                  </div>
-                </div>
-                <div class="rightcontent">
-                  $80
-                </div>
-              </li>
+              
             </ul>
           </div>
         </div>
@@ -154,5 +147,3 @@ function Tostadas(){
     </div>
     );
 }
-
-export default Tostadas;

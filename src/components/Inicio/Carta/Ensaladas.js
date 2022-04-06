@@ -21,29 +21,16 @@ function Ensaladas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Baja
+                    Baja <i>120 g</i>
                   </div>
                   <div class="subheading">
-                  Con lechuga, jitomate, aguacate, rábano, manzana, pepino, jícama, cítricos y semillas frescas, servida con <i> 150 g</i> de pechuga de pollo o arrachera con aderezo <i>honey-mustard</i>
-                   </div>
+                  Mix de lechugas, jitomate, aguacate, rabano, manzana, pepino, jícama, aderezo citrico y pollo, arrachera o camarón                   </div>
                 </div>
                 <div class="rightcontent">
-                  $140
+                  $150
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                  Atún
-                  </div>
-                  <div class="subheading">
-                  Mix de lechugas frescas, aguacate y supremas de naranja, con un delicioso <i>steak</i> de atún fresco en costra de ajonjolí y aderezo de soya.
-                  </div>
-                </div>
-                <div class="rightcontent">
-                  $160
-                </div>
-              </li>
+              
               
             </ul>
           </div>
@@ -57,11 +44,10 @@ function Ensaladas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Mango
+                    Ensenada <i>120 g</i>
                   </div>
                   <div class="subheading">
-                   Mezcla de lechugas, aguacate, espinaca, jitomate, cebolla, chile y mango, complementada con una vinagreta cítrica.
-                  </div>
+                  Lechugas, aguacate, jitomate cherry, crutones, nuez y mix de coles + pollo, arrachera o camarón                   </div>
                 </div>
                 <div class="rightcontent">
                   $140
@@ -80,14 +66,13 @@ function Ensaladas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Espinacas y Queso de Cabra
-                  </div>
+                    De Atún <i>200 g</i>
+                                      </div>
                   <div class="subheading">
-                    Mix de espinaca y lechuga aderezada con una vinagreta de miel, acompañado con queso fresco de cabra.
-                  </div>
+                  En costra de ajonjoli, con mix de lechugas, aguacate y supremas de naranja                  </div>
                 </div>
                 <div class="rightcontent">
-                  $140
+                  $230
                 </div>
               </li>
               

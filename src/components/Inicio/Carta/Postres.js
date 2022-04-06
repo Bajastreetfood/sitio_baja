@@ -26,17 +26,15 @@ function Postres(){
                    </div>
                 </div>
                 <div class="rightcontent">
-                  $80
+                  $100
                 </div>
               </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Brownie
+                  Pay Helado de Limón
                   </div>
-                  <div class="subheading">
-                  Delicioso brownie <i>fudge</i> con una bola de helado de vainilla.
-                                  </div>
+                  
                 </div>
                 <div class="rightcontent">
                   $90
@@ -62,7 +60,7 @@ function Postres(){
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $110
                 </div>
               </li>
               
@@ -78,17 +76,15 @@ function Postres(){
             <li>
                 <div class="leftcontent">
                   <div class="title">
-                   Panqué de Zanahoria
+                   Pastel del Día
                   </div>
-                  <div class="subheading">
-                    Tradicional panqué de zanahoria con nuez, acompañado de una fresca bola de helado de vainilla.
-                    </div>
+                  
                 </div>
                 <div class="rightcontent">
-                  $80
+                  $110
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <div class="leftcontent">
                   <div class="Subheading">
                    En la compra de cualquier postre, por <b>$20</b> más agrega un café:
@@ -102,7 +98,7 @@ function Postres(){
                     </div>
                 </div>
                 
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

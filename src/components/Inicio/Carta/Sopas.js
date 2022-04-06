@@ -74,7 +74,7 @@ function Sopas(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                    Sopa Azteca de Mariscos
+                    Sopa Azteca de Mariscos <i>90 g</i>
                   </div>
                   <div class="subheading">
                   Pulpo y camarón, terminada con crema, aguacate y guajillo	
