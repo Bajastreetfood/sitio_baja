@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/burritos/gobernador.png'
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/aguachiles/rojo.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/burritos/pollo.png'
 
 export default function Aguachiles() {
@@ -34,7 +34,7 @@ export default function Aguachiles() {
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto1} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>

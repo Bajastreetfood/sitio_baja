@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/especialidades/atuncostra.png'
-import Foto2 from '../../../assets/IMG/menuplatillos/menu/especialidades/arrachera-surfandturf.png'
-import Foto3 from '../../../assets/IMG/menuplatillos/menu/especialidades/salmonmaracuya.png'
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/pastas/camarones.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/pastas/pulpo.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/pastas/salmon.png'
 
 
 // TO DO:
@@ -15,7 +15,7 @@ export default function Pastas() {
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto1} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -39,7 +39,7 @@ export default function Pastas() {
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -61,7 +61,7 @@ export default function Pastas() {
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>

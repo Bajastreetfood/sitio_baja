@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/tacos/marlin.png'
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/tacos/gobernador.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/tacos/pescadocapeado.png'
 import Foto3 from '../../../assets/IMG/menuplatillos/menu/tacos/pulpo.png'
 

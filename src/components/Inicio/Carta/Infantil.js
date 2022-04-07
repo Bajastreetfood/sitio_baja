@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensaladabaja.png'
-import Foto2 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-quesodecabra.png'
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/infantil/dedos.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/infantil/tiras.png'
 import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-mango.png'
 
 
@@ -13,7 +13,7 @@ export default function Infantil() {
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/2.png" alt="menu"/>
+              <img src={Foto1} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -36,7 +36,7 @@ export default function Infantil() {
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
