@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Foto1 from '../../../assets/IMG/menuplatillos/menu/burgers/hamburguesa-2.png'
-import Foto2 from '../../../assets/IMG/menuplatillos/menu/burgers/hamburguesa-camaron.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/burgers/arrachera.png'
 import Foto3 from '../../../assets/IMG/menuplatillos/menu/burgers/HAMBURGUESA-MARYTIERRA.png'
 
 
@@ -62,7 +62,7 @@ function Burgers(){
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/3.png" alt="menu"/>
+              <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
             <li>

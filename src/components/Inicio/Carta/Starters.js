@@ -2,7 +2,7 @@ import React from 'react';
 
 import Foto1 from '../../../assets/IMG/menuplatillos/menu/starters/alitasdepulpo.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/starters/chipspulpo.png'
-import Foto3 from '../../../assets/IMG/menuplatillos/menu/starters/popcorncamaron.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/starters/popcorncamaron2.png'
 
 function Starters(){
     return(

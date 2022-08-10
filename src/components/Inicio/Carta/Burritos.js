@@ -3,6 +3,7 @@ import React from 'react';
 
 import Foto1 from '../../../assets/IMG/menuplatillos/menu/burritos/gobernador2.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/burritos/pollo.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/burritos/marlin.png'
 
 
 function Burritos(){
@@ -68,7 +69,7 @@ function Burritos(){
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/3.png" alt="menu"/>
+              <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>

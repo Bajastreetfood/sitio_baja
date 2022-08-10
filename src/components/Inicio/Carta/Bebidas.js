@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/bebidas/aguas.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/bebidas/cerveza.png'
+
 function Bebidas(){
     return(
         <div class="col-12 px-0 w-gallery-container">
@@ -7,7 +10,7 @@ function Bebidas(){
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/1.png" alt="menu"/>
+              <img src={Foto1} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -45,9 +48,31 @@ function Bebidas(){
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/2.png" alt="menu"/>
+              <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
+            <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Cerveza Premium
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $65
+                </div>
+              </li>
+              <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Cerveza Comercial
+                  </div>
+                  
+                </div>
+                <div class="rightcontent">
+                  $50
+                </div>
+              </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
@@ -70,28 +95,8 @@ function Bebidas(){
                   $45
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Cerveza Comercial
-                  </div>
-                  
-                </div>
-                <div class="rightcontent">
-                  $50
-                </div>
-              </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Cerveza Premium
-                  </div>
-                  
-                </div>
-                <div class="rightcontent">
-                  $65
-                </div>
-              </li>
+             
+              
              
             </ul>
           </div>

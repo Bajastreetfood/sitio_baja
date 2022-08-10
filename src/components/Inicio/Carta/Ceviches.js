@@ -2,8 +2,8 @@ import React from 'react'
 
 
 import Foto1 from '../../../assets/IMG/menuplatillos/menu/ceviches/sierra.png'
-import Foto2 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-quesodecabra.png'
-import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-mango.png'
+import Foto2 from '../../../assets/IMG/menuplatillos/menu/ceviches/salmon.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/ceviches/torre.png'
 
 
 
@@ -64,7 +64,7 @@ export default function Ceviches() {
         <div class="col-md-4 w-gallery main lunch dinner">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto2} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
             <li>
@@ -110,11 +110,22 @@ export default function Ceviches() {
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               
-              
+            <li>
+                <div class="leftcontent">
+                  <div class="title">
+                    Torre de Mariscos <i>450 g</i> 
+                    </div>
+                  <div class="subheading">
+                  Pescado blanco, salmón, camaron y pulpo con jitomate, pepino, mango y salsa mexicana (para compartir)             </div>
+                </div>
+                <div class="rightcontent">
+                  $550
+                </div>
+              </li>
               <li>
                 <div class="leftcontent">
                   <div class="title">
@@ -127,18 +138,7 @@ export default function Ceviches() {
                   $170
                 </div>
               </li>
-              <li>
-                <div class="leftcontent">
-                  <div class="title">
-                    Torre de Mariscos <i>450 g</i> 
-                    </div>
-                  <div class="subheading">
-                  Pescado blanco, salmón, camaron y pulpo con jitomate, pepino, mango y salsa mexicana (para compartir)             </div>
-                </div>
-                <div class="rightcontent">
-                  $550
-                </div>
-              </li>
+              
               
             </ul>
           </div>

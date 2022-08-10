@@ -3,7 +3,7 @@ import React from 'react'
 
 import Foto1 from '../../../assets/IMG/menuplatillos/menu/infantil/dedos.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/infantil/tiras.png'
-import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-mango.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/infantil/pasta.png'
 
 
 export default function Infantil() {
@@ -58,7 +58,7 @@ export default function Infantil() {
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>

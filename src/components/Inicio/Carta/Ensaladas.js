@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-import Foto1 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensaladabaja.png'
+import Foto1 from '../../../assets/IMG/menuplatillos/menu/ensaladas/baja.png'
 import Foto2 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensenada.png'
-import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/ensalada-mango.png'
+import Foto3 from '../../../assets/IMG/menuplatillos/menu/ensaladas/atun.png'
 
 
 
@@ -15,7 +15,7 @@ function Ensaladas(){
         <div class="col-md-4 w-gallery main lunch dessert">
           <div class="content-menu">
             <div class="img">
-              <img src="img/menu/2.png" alt="menu"/>
+              <img src={Foto1} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
@@ -60,7 +60,7 @@ function Ensaladas(){
         <div class="col-md-4 w-gallery lunch dinner dessert">
           <div class="content-menu">
             <div class="img">
-            <img src="img/menu/2.png" alt="menu"/>
+            <img src={Foto3} alt="menu"/>
             </div>
             <ul class="food-list autoheight-1">
               <li>
