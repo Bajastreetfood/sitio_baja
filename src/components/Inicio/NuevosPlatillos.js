@@ -1,9 +1,10 @@
 import React from 'react';
 
-import Foto1 from '../../assets/IMG/promociones/cerveza3x2.png'
+import Foto1 from '../../assets/IMG/promociones/cerva3x2-POST.png'
 import Foto2 from '../../assets/IMG/promociones/cumpleaños.png'
 import Foto3 from '../../assets/IMG/promociones/primerarondadoble.png'
-import Foto4 from '../../assets/IMG/promociones/tacoday.png'
+import Foto5 from '../../assets/IMG/promociones/TRAGOSDOBLES-POST.png'
+import Foto4 from '../../assets/IMG/promociones/TACODAY-POST.png'
 
 function NuevosPlatillos(){
     return(
@@ -57,7 +58,7 @@ function NuevosPlatillos(){
     <div class="col-md-6">
       <div class="content-col pb-0">
         <div class="img section">
-          <img src={Foto3} alt="#"/>
+          <img src={Foto5} alt="#"/>
         </div>
       </div>
     </div>
@@ -65,10 +66,10 @@ function NuevosPlatillos(){
       <div class="content-col pb-md-0">
         
         <div class="heading line">
-        Primera Ronda Doble:
+        Todas Las Rondas son Dobles:
         </div>
         <div class="desc">
-        Aprovecha la promoción en nuestra coctelería y destilados seleccionados,<br></br> la primera ronda ¡la invita la casa!
+        Aprovecha la promoción en nuestra en destilados seleccionados<br></br>
         </div>
         
       </div>
@@ -80,7 +81,7 @@ function NuevosPlatillos(){
         Lunes de Taco Day: 
         </div>
         <div class="desc">
-        Disfruta todos los lunes de la mejor promoción de la semana y come <br></br> ¡todos los tacos que quieras!<br></br> por tan sólo $190.
+        Disfruta todos los lunes<br></br> ¡todos los tacos que quieras!<br></br> por tan sólo $250.
         </div>
      
       </div>
