@@ -25,6 +25,7 @@ import ReservacionState from './context/reservaciones/reservacionState'
 import FacturaState from './context/facturas/facturaState'
 import Facturas from './components/Dashboard/Facturas';
 import Reservaciones from './components/Dashboard/Reservaciones';
+import AR from './components/Inicio/AR';
 
 
 
@@ -45,6 +46,7 @@ function App() {
       
       <Switch>
       <Route exact path="/" component={(Inicio)} />
+      <Route exact path="/AR" component={(AR)} />
       <Route exact path="/Acerca" component={(Acerca)} />
       <Route exact path="/Menu" component={(MenuPagina)} />
       <Route exact path="/Factura" component={(Factura)} />

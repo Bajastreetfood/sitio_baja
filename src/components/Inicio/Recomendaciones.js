@@ -8,6 +8,7 @@ import Foto6 from '../../assets/IMG/sugerencias/pulpoalasbrasas.png'
 import Foto7 from '../../assets/IMG/menuplatillos/menu/burritos/gobernador.png'
 
 
+
 function Recomendaciones(){
     return(
         <section id="recomendaciones" aria-label="section" class="s-img " style={{backgroundImage: `url('img/bgfoodicon.png')`}}>
@@ -18,7 +19,7 @@ function Recomendaciones(){
       <div class="main-content">
         <div class="heading">
           <div class="title l-1">
-            Sugerencias del Chef
+            Sugerencias del Chef 
           </div>
         </div>
       </div>
@@ -36,7 +37,7 @@ function Recomendaciones(){
               <li>
                 <div class="leftcontent">
                   <div class="title">
-                  Crema de Papa
+                  Crema de Papa 
                   </div>
                   <div class="subheading">
                   Aderezada con tocino espolvoreado y queso cheddar, con pan de ajo para acompañar. 
@@ -150,7 +151,7 @@ function Recomendaciones(){
                 <div class="rightcontent">
                 $190
                 </div>
-              </li>
+                          </li>
             </ul>
           </div>
         </div>
