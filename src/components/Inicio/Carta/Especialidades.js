@@ -85,7 +85,7 @@ function Especialidades() {
                     150  g de filete empanizado de avellana y guarnición a elegir</div>
                 </div>
                 <div class="rightcontent">
-                  $435
+                  $180
                 </div>
               </li>
             </ul>
@@ -106,7 +106,7 @@ function Especialidades() {
                     Con espárragos término y guarnición a elegir                  </div>
                 </div>
                 <div class="rightcontent">
-                  $280
+                  $290
                 </div>
               </li>
               <li>
@@ -118,7 +118,7 @@ function Especialidades() {
                     En salsa macha, esparragos al ajillo + arroz en blanco y negro                   </div>
                 </div>
                 <div class="rightcontent">
-                  $435
+                  $465
                 </div>
               </li>
 

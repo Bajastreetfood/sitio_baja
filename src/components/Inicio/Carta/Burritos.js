@@ -25,7 +25,7 @@ function Burritos(){
                   Mayonesa-chipotle, lechuga, arroz y guacamole                  </div>
                 </div>
                 <div class="rightcontent">
-                  $190
+                  $200
                 </div>
               </li>
               <li>
@@ -37,7 +37,7 @@ function Burritos(){
                   Lechuga, esquites, jitomate, aguacate, queso y mayonesa chipotle                 </div>
                 </div>
                 <div class="rightcontent">
-                  $170
+                  $180
                 </div>
               </li>
               
@@ -59,7 +59,7 @@ function Burritos(){
                   Mayonesa-chipotle, lechuga, esquites, jitomate, aguacate y queso                  </div>
                 </div>
                 <div class="rightcontent">
-                  $150
+                  $170
                 </div>
               </li>
               
@@ -81,7 +81,7 @@ function Burritos(){
                   Mix de coles, piña, mayonesa chipotle + guacamole                  </div>
                 </div>
                 <div class="rightcontent">
-                  $160
+                  $170
                 </div>
               </li>
               

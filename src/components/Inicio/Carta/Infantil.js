@@ -25,7 +25,7 @@ export default function Infantil() {
                   Con papas y ensalada                  </div>
                 </div>
                 <div class="rightcontent">
-                  $130
+                  $140
                 </div>
               </li>
               
@@ -48,7 +48,7 @@ export default function Infantil() {
                  Con papas y ensalada                   </div>
                 </div>
                 <div class="rightcontent">
-                  $120
+                  $130
                 </div>
               </li>
               
@@ -70,7 +70,7 @@ export default function Infantil() {
                  A la plancha, Alfredo o Mc N´ Cheese                 </div>
                 </div>
                 <div class="rightcontent">
-                  $130
+                  $120
                 </div>
               </li>
               

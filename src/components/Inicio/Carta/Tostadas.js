@@ -24,7 +24,7 @@ function Tostadas(){
                                     </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $110
                 </div>
               </li>
               <li>
@@ -36,7 +36,7 @@ function Tostadas(){
                   En escabeche de nopal y salsa tatemada de habanero                   </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $110
                 </div>
               </li>
               <li>
@@ -48,7 +48,7 @@ function Tostadas(){
                   Mayonesa-chipotle, pepino, salsa     mexicana y ponzu                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $110
                 </div>
               </li>
               
@@ -84,7 +84,7 @@ function Tostadas(){
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $110
                 </div>
               </li>
               <li>
@@ -97,7 +97,7 @@ function Tostadas(){
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $180
                 </div>
               </li>
               
@@ -119,7 +119,7 @@ function Tostadas(){
                   Serrano y habanero + pepino, jícama y cebolla morada                  </div>
                 </div>
                 <div class="rightcontent">
-                  $105
+                  $115
                 </div>
               </li>
               <li>
@@ -131,7 +131,7 @@ function Tostadas(){
                   Mayonesa-chipotle, mix de coles,   aguacate y salsa tatemada de habanero                  </div>
                 </div>
                 <div class="rightcontent">
-                  $95
+                  $110
                 </div>
               </li>
               <li>

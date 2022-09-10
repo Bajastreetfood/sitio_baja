@@ -26,7 +26,7 @@ function Postres(){
                    </div>
                 </div>
                 <div class="rightcontent">
-                  $100
+                  $110
                 </div>
               </li>
               <li>
@@ -81,7 +81,7 @@ function Postres(){
                   
                 </div>
                 <div class="rightcontent">
-                  $110
+                  $120
                 </div>
               </li>
               {/* <li>

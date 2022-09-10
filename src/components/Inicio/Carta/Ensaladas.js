@@ -50,7 +50,7 @@ function Ensaladas(){
                   Lechugas, aguacate, jitomate cherry, crutones, nuez y mix de coles + pollo, arrachera o camarón                   </div>
                 </div>
                 <div class="rightcontent">
-                  $140
+                  $190
                 </div>
               </li>
               

@@ -39,7 +39,7 @@ export default function Ceviches() {
                   Mango, cebolla, jitomate y chile cuaresmeño + salsa ponzu                  </div>
                 </div>
                 <div class="rightcontent">
-                  $155
+                  $160
                 </div>
               </li>
               
@@ -52,7 +52,7 @@ export default function Ceviches() {
                   Leche de tigre al estilo Baja, camote, grano de elote y aguacate                 </div>
                 </div>
                 <div class="rightcontent">
-                  $195
+                  $205
                 </div>
               </li>
              
@@ -76,7 +76,7 @@ export default function Ceviches() {
                   Mango, aguacate y ajonjoli + salsa   teriyaki y marisquera                </div>
                 </div>
                 <div class="rightcontent">
-                  $180
+                  $200
                 </div>
               </li>
             <li>
@@ -88,7 +88,7 @@ export default function Ceviches() {
                   Aguacate, mayonesa tártara, ajonjolí y poro               </div>
                 </div>
                 <div class="rightcontent">
-                  $170
+                  $180
                 </div>
               </li>
               <li>
@@ -123,7 +123,7 @@ export default function Ceviches() {
                   Pescado blanco, salmón, camaron y pulpo con jitomate, pepino, mango y salsa mexicana (para compartir)             </div>
                 </div>
                 <div class="rightcontent">
-                  $550
+                  $580
                 </div>
               </li>
               <li>
@@ -135,7 +135,7 @@ export default function Ceviches() {
                   Jitomate, chile cuaresmeño, cebolla, pepino y aguacate + salsa coctelera             </div>
                 </div>
                 <div class="rightcontent">
-                  $170
+                  $190
                 </div>
               </li>
               

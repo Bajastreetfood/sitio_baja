@@ -23,7 +23,7 @@ function Sopas(){
                   Con camarones al ajillo en arroz blanco con fruta tropical </div>
                 </div>
                 <div class="rightcontent">
-                  $115
+                  $120
                 </div>
               </li>
               
@@ -46,7 +46,7 @@ function Sopas(){
                   Tradicional con papas y zanahoria                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $55
+                  $60
                 </div>
               </li>
               <li>
@@ -58,7 +58,7 @@ function Sopas(){
                   Tradicional con papas y zanahoria                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $105
+                  $120
                 </div>
               </li>
               
@@ -81,7 +81,7 @@ function Sopas(){
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $110
+                  $120
                 </div>
               </li>
               <li>
@@ -93,7 +93,7 @@ function Sopas(){
                   Pregunta por el sabor del día	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $55
+                  $60
                 </div>
               </li>
               

@@ -152,7 +152,7 @@ function NuevosPlatillos(){
     <div class="col-md-6">
       <div class="content-col pb-0">
         <div class="img section">
-          <img src={Foto3} alt="#"/>
+          <img src={Foto5} alt="#"/>
         </div>
       </div>
     </div>
@@ -160,10 +160,10 @@ function NuevosPlatillos(){
       <div class="content-col pb-md-0">
         
         <div class="heading line">
-        Primera Ronda Doble:
+        Todas Las Rondas son Dobles:
         </div>
         <div class="desc">
-        Aprovecha la promoción en nuestra coctelería y destilados seleccionados, la primera ronda ¡la invita la casa!
+        Aprovecha la promoción en nuestra en destilados seleccionados<br></br>
         </div>
         
       </div>

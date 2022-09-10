@@ -23,7 +23,7 @@ function Starters(){
                   Con papas gajo, aderezo Ranch y salsa hot o BBQ	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $250
+                  $270
                 </div>
               </li>
               <li>
@@ -35,7 +35,7 @@ function Starters(){
                   Con aderezo Ranch y salsa hot o BBQ                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $180
+                  $190
                 </div>
               </li>
               
@@ -57,7 +57,7 @@ function Starters(){
                   Con salsa macha y aderezo mayonesa-chipotle	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $195
+                  $205
                 </div>
               </li>
              
@@ -94,7 +94,7 @@ function Starters(){
                   Con papas gajo, aderezo Ranch y salsa hot o BBQ                  </div>
                 </div>
                 <div class="rightcontent">
-                  $195
+                  $200
                 </div>
               </li>
               <li>
@@ -109,7 +109,7 @@ function Starters(){
                   </div>
                 </div>
                 <div class="rightcontent">
-                  $135
+                  $145
                 </div>
               </li>
               

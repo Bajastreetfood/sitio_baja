@@ -71,7 +71,7 @@ function Tacos(){
                   Tentáculo en salsa macha con piña, col,cebolla y cilantro                  </div>
                 </div>
                 <div class="rightcontent">
-                  $65
+                  $70
                 </div>
               </li>
               <li>
@@ -117,7 +117,7 @@ function Tacos(){
                   Camarones, queso, pimientos y cebolla	                  </div>
                 </div>
                 <div class="rightcontent">
-                  $70
+                  $75
                 </div>
               </li>
             

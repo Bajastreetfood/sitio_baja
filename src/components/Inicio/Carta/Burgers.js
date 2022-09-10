@@ -24,7 +24,7 @@ function Burgers(){
                   Camarones empanizados, aderezo   mayonesa-chipotle, coles, jitomate, aguacate y queso                   </div>
                 </div>
                 <div class="rightcontent">
-                  $190
+                  $210
                 </div>
               </li>
               
@@ -51,7 +51,7 @@ function Burgers(){
                   Arrachera, camarones capeados, lechuga jitomate y mostaza                                    </div>
                 </div>
                 <div class="rightcontent">
-                  $230
+                  $240
                 </div>
               </li>
              
@@ -74,7 +74,7 @@ function Burgers(){
                   Con aros capeados, queso, lechuga y jitomate                  </div>
                 </div>
                 <div class="rightcontent">
-                  $180
+                  $190
                 </div>
               </li>
             
